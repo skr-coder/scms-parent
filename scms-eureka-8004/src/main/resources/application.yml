@@ -1,0 +1,10 @@
+server:
+  port: 8004
+eureka:
+  instance:
+    hostname: localhost #eureka服务端的实例名称
+  client:
+    register-with-eureka: false #false表示不向注册中心注册自己。
+    fetch-registry: false       #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
+    service-url:
+      defaultZone: http://www.eureka8003.com:8003/eureka/,http://www.eureka8002.com:8002/eureka/ #指定客户端访问Eureka服务端的URL地址

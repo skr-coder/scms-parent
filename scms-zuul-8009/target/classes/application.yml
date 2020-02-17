@@ -1,0 +1,9 @@
+server:
+  port: 8009
+spring:
+  application:
+    name: scms-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.eureka8003.com:8003/eureka/,http://www.eureka8004.com:8004/eureka/,http://www.eureka8002.com:8002/eureka/
