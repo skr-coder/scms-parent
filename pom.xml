@@ -74,5 +74,6 @@
 		<module>scms-provider-hystrix-8007</module>
 		<module>scms-hystrix-dashboard-8008</module>
 		<module>scms-zuul-8009</module>
+		<module>scms-provider-8010</module>
 	</modules>
 </project>
